@@ -1,0 +1,5 @@
+{
+  "name":"creator-hub-auctions","version":"0.1.0","private":true,"description":"Responsive peer-to-peer marketplace with fixed-price listings and server-validated auctions.","type":"commonjs",
+  "scripts":{"start":"node server.js","dev":"node --watch server.js","test":"node --test","check":"node --check server.js && node --check public/app.js && node --check tests/market.test.js"},
+  "engines":{"node":">=22.5.0"}
+}
